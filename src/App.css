@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: antiquewhite;
+  font-weight: 900;
+  color: black;
+  border-radius: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: green;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 2rem;
+}
+
+.topic-selection {
+  text-align: center;
+  font-size: larger;
+  font-weight: 800;
+  color: oldlace;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.topic-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 10px; /* Add gap for spacing between buttons */
+}
+
+.topic-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.topic-button:hover {
+  background-color: goldenrod;
+}
+
+/* Footer */
+.footer {
+  background-color: antiquewhite;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
